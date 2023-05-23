@@ -17,7 +17,7 @@ const { t } = useI18n()
 <template>
   <div>
     <div text-4xl>
-      <a rel="noreferrer" href="https://github.com/elveris" target="_blank">
+      <a rel="noreferrer" href="https://github.com/alifiratari" target="_blank">
         <img
           inline-block max-h-32
           src="/images/logo-colorful.svg"
@@ -47,6 +47,12 @@ const { t } = useI18n()
       >
         {{ t('button.go') }}
       </button>
+    </div>
+
+    <div text-4xl>
+      <a href="/test">
+        <em text-sm opacity-75>test</em>
+      </a>
     </div>
   </div>
 </template>
